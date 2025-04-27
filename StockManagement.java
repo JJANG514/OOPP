@@ -198,7 +198,7 @@ public class StockManagement extends Application {
 		 System.out.println("TV " + name + " with item number " + id + " has been added.");	
 	}
 	
-	public static void addAirCond(Product[] products, Scanner input) 
+	public static void addAC(Product[] products, Scanner input) 
 	{
 	    input.nextLine();  // Clear the buffer
 	    System.out.print("\nEnter product name: ");
